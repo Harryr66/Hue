@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd ui-nextjs && npm install && npm run build",
+  "outputDirectory": "ui-nextjs/.next",
+  "installCommand": "cd ui-nextjs && npm install",
+  "framework": "nextjs",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- ui-nextjs/"
+}
+
